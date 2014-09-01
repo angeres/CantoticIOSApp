@@ -1,0 +1,78 @@
+<Alloy>
+	<Window id="container" layout="vertical" top="20" title="ScrollView Demo">
+		<ScrollView id="scrollView" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="true" height="100%" layout="vertical">
+			
+			<View id="profileImage" height="520" top="0" backgroundColor="red">
+				<ImageView image="/images/testProfileImg.jpg" height="480" top="0"></ImageView>
+				
+				<Button id="profileName" class="curvedButton">Kate Smith</Button>
+			</View>
+				
+			<View layout="vertical" height=Ti.UI.SIZE>
+				<Label color="#ffffff">Profile</Label>
+				<Label color="#ffffff">123 FOLLOWERS</Label>
+			</View>
+			
+			<View backgroundColor="#333333">
+				<Label color="#ffffff" id="profession">Jazz Violinist and Music Director</Label>
+			</View>
+			
+			<View layout="vertical" class="panel">
+				<View layout="vertical">
+					<Label color="#ffffff" class="panelHeader">ABOUT ME</Label>	
+				</View>
+				<View class="panelBody">
+					<Label color="#ffffff" class="panelBodyData">Add description about yourself to let others know about you.</Label>	
+				</View>
+			</View>
+			
+			<View layout="vertical" class="panel">
+				<View>
+					<Label color="#ffffff" class="panelHeader">PORTFOLIO</Label>	
+				</View>
+				<View class="panelBody">
+					<View layout="vertical" class="panelBodyData">
+						<Label color="#ffffff">Add description about yourself to let others know about you.</Label>
+						<Button class="curvedButton">ADD YOUR MOMENT</Button>
+					</View>	
+				</View>
+			</View>
+			
+			<View layout="vertical" class="panel">
+				<View>
+					<Label color="#ffffff" class="panelHeader">TEACGER</Label>	
+				</View>
+				<View layout="vertical" class="panelBody">
+					<Label color="#ffffff" class="panelBodyData">Add description about yourself to let others know about you.</Label>	
+				</View>
+			</View>
+				
+			
+			
+			<ListView height="200">
+	            <ListSection>
+	
+	                <!-- Sets ListSection's headerView property -->
+	                <HeaderView>
+	                    <View backgroundColor="#DDD" height="Ti.UI.SIZE">
+	                        <Label>Fruits</Label>
+	                    </View>>
+	                </HeaderView>
+	
+	                <ListItem title="Apple" />
+	                <ListItem title="Orange" />
+	                <ListItem title="Pear" />
+	
+	                <!-- Sets ListSection's footerView property -->
+	                <FooterView>
+	                    <View backgroundColor="#DDD" height="Ti.UI.SIZE">
+	                        <Label>3 items</Label>
+	                    </View>
+	
+	                </FooterView>
+	            </ListSection>
+	        </ListView>
+	        
+		</ScrollView>
+	</Window>
+</Alloy>

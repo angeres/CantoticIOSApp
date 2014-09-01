@@ -1,0 +1,42 @@
+
+"Window" : {
+	backgroundColor:"#000000"
+},
+"View":{
+	height:Ti.UI.SIZE
+},
+".curvedButton":{
+	height: "20",
+	backgroundColor:"#000000",
+	borderColor: "#ffffff",
+	borderRadius: "10dp",
+	borderWidth:"2dp",
+	font:{
+		fontSize:"10dp",	
+		fontStyle: 'normal',
+        fontWeight: 'normal'
+	}
+},
+".panel":{
+	top:"20dp"
+},
+".panelHeader":{
+	left:0
+},
+".panelBody":{
+	borderColor: "#ffffff",
+	borderWidth:1,
+},
+".panelBodyData":{
+	top:"10dp", bottom:"10dp", left:"10dp", right:"10dp"
+},
+"#profileName":{
+	bottom: "10",
+	font:{
+		fontSize:"10dp"	
+	}
+},
+
+"#profession":{
+	top: "5dp", bottom: "5dp"
+}

@@ -1,0 +1,11 @@
+<Alloy>
+	<Window top="20" layout="vertical">
+		<View class="container" height="200">
+			<ImageView image="/images/logo.png"></ImageView>
+		</View>	
+		<View layout="vertical">
+			<LoginButton id="fbButton"  ns="Alloy.Globals.Facebook"/>
+			<Button id="btn_lFacebook" onClick="validateUser">Log in</Button>
+		</View>
+	</Window>
+</Alloy>

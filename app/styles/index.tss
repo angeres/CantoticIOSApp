@@ -1,0 +1,17 @@
+"Window":{
+	backgroundColor:"#ffffff"
+},
+".container": {
+	backgroundColor:"white"
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}, 
+"#btn_lFacebook":{
+    height:"18%",
+    backgroundColor: "#87CEFA",
+    width: "60%"
+
+}

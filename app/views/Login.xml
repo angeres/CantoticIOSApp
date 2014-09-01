@@ -1,0 +1,8 @@
+<Alloy>
+	<Window top="20" layout="vertical">
+		<View class="container">
+			<ImageView image="/images/logo.png"></ImageView>
+		</View>	
+	</Window>
+	
+</Alloy>
